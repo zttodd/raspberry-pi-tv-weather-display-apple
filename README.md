@@ -14,7 +14,7 @@ Full-color weather icons are from Weather Underground. Here are the other icons 
 http://www.flaticon.com/authors/eleonor-wang  
 http://www.flaticon.com/free-icon/umbrella_130500  
 
-**Rain cloud with sun behind (Humidity)  
+**Rain cloud with sun behind (Humidity)**  
 http://www.flaticon.com/authors/yannick  
 http://www.flaticon.com/free-icon/raining-at-day-outlined-symbol_56235  
 
@@ -22,7 +22,7 @@ http://www.flaticon.com/free-icon/raining-at-day-outlined-symbol_56235
 http://www.flaticon.com/authors/yannick  
 http://www.flaticon.com/free-icon/wind-weather-lines-group-symbol_55939  
 
-**Thermometer (Feels Like)  
+**Thermometer (Feels Like)**  
 http://www.flaticon.com/authors/yannick  
 http://www.flaticon.com/free-icon/thermometer-outlined-symbol-of-stroke_55483  
 
@@ -30,10 +30,10 @@ http://www.flaticon.com/free-icon/thermometer-outlined-symbol-of-stroke_55483
 http://www.flaticon.com/authors/robin-kylander  
 http://www.flaticon.com/free-icon/cloud-with-rain-drops_52274  
 
-**Sunglasses (Visibility)  
+**Sunglasses (Visibility)**  
 http://www.flaticon.com/authors/yannick  
 http://www.flaticon.com/free-icon/sunglasses-with-stripes_56363  
 
-**Sun (UV Index)  
+**Sun (UV Index)**  
 http://www.flaticon.com/authors/catalin-fertu  
 http://www.flaticon.com/free-icon/sun-day-weather-symbol_54455  
