@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Apple TV</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <div class="row header text-center">
+            <div class="icon-now">
+                <img src="images/partlycloudy.gif" alt="">
+            </div>
+            <p class="temp_f"><span>58</span>&deg;</p>
+            <div class="city-conditions">
+                <p>
+                    <span class="city">Indianapolis</span><br /><br />
+                    <span class="weather">Clear</span>
+                </p>
+            </div>
+        </div>
+        
+        <div class="row text-center">
+            <p>It's currently <span class="temp_f inline">58</span>&deg;F in <span class="city">Indianapolis</span>, <span class="state">IN</span>.</p>
+        </div>
+
+        <div class="row hourly">
+            <div class="hour one">
+                <p><span class="time">8:00 AM</span></p>
+                <div class="icon">
+                    <img src="images/partlycloudy.gif" alt="">
+                </div>
+                <p><span class="temp">58</span></p>
+            </div>
+            <div class="hour two">
+                <p><span class="time">10:00 AM</span></p>
+                <div class="icon">
+                    <img src="images/partlycloudy.gif" alt="">
+                </div>
+                <p><span class="temp">63</span></p>
+            </div>
+            <div class="hour three">
+                <p><span class="time">12:00 PM</span></p>
+                <div class="icon">
+                    <img src="images/partlycloudy.gif" alt="">
+                </div>
+                <p><span class="temp">70</span></p>
+            </div>
+            <div class="hour four">
+                <p><span class="time">2:00 PM</span></p>
+                <div class="icon">
+                    <img src="images/clear.gif" alt="">
+                </div>
+                <p><span class="temp">72</span></p>
+            </div>
+            <div class="hour five">
+                <p><span class="time">4:00 PM</span></p>
+                <div class="icon">
+                    <img src="images/clear.gif" alt="">
+                </div>
+                <p><span class="temp">72</span></p>
+            </div>
+            <div class="hour six">
+                <p><span class="time">6:00 PM</span></p>
+                <div class="icon">
+                    <img src="images/clear.gif" alt="">
+                </div>
+                <p><span class="temp">71</span></p>
+            </div>
+            <div class="hour seven">
+                <p><span class="time">8:00 PM</span></p>
+                <div class="icon">
+                    <img src="images/nt_partlycloudy.gif" alt="">
+                </div>
+                <p><span class="temp">68</span></p>
+            </div>
+            <div class="hour eight">
+                <p><span class="time">10:00 PM</span></p>
+                <div class="icon">
+                    <img src="images/nt_partlycloudy.gif" alt="">
+                </div>
+                <p><span class="temp">60</span></p>
+            </div>
+            <div class="hour nine">
+                <p><span class="time">12:00 AM</span></p>
+                <div class="icon">
+                    <img src="images/nt_clear.gif" alt="">
+                </div>
+                <p><span class="temp">59</span></p>
+            </div>
+            <div class="hour ten">
+                <p><span class="time">2:00 AM</span></p>
+                <div class="icon">
+                    <img src="images/nt_clear.gif" alt="">
+                </div>
+                <p><span class="temp">55</span></p>
+            </div>
+            <div class="hour eleven">
+                <p><span class="time">4:00 AM</span></p>
+                <div class="icon">
+                    <img src="images/nt_clear.gif" alt="">
+                </div>
+                <p><span class="temp">52</span></p>
+            </div>
+            <div class="hour twelve">
+                <p><span class="time">6:00 AM</span></p>
+                <div class="icon">
+                    <img src="images/partlycloudy.gif" alt="">
+                </div>
+                <p><span class="temp">56</span></p>
+            </div>
+        </div>
+        
+        <div class="row">
+            <div class="condition">
+                <img src="images/umbrella.svg" alt="">
+                <p><span class="pop">10</span>%</p>
+                <p>Chance of Rain</p>
+            </div>
+            <div class="condition">
+                <img src="images/raining-at-day-outlined-symbol.svg" alt="">
+                <p><span class="humidity">50</span></p>
+                <p>Humidity</p>
+            </div>
+            <div class="condition">
+                <img src="images/wind-weather-lines-group-symbol.svg" alt="">
+                <p><span class="wind_mph">2</span> mph</p>
+                <p>Wind</p>
+            </div>
+            <div class="condition">
+                <img src="images/thermometer-outlined-symbol-of-stroke.svg" alt="">
+                <p><span class="feels_like">72</span>&deg;</p>
+                <p>Feels Like</p>
+            </div>
+            <div class="condition">
+                <img src="images/cloud-with-rain-drops.svg" alt="">
+                <p><span class="precip_in">0.00</span> in.</p>
+                <p>Precipitation</p>
+            </div>
+<!--             <div class="condition">
+                <img src="" alt="">
+                <p><span class="pressure_in"></span> in</p>
+                <p>Pressure</p>
+            </div> -->
+            <div class="condition">
+                <img src="images/sunglasses-with-stripes.svg" alt="">
+                <p><span class="visibility">10.0</span> mi</p>
+                <p>Visibility</p>
+            </div>
+            <div class="condition">
+                <img src="images/sun-day-weather-symbol.svg" alt="">
+                <p><span class="uv">3</span></p>
+                <p>UV Index</p>
+            </div>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.1.0.min.js" integrity="sha256-cCueBR6CsyA4/9szpPfrX3s49M9vUU5BgtiJj06wt/s=" crossorigin="anonymous"></script>
+    <script src="js/weather.js"></script>
+</body>
+</html>

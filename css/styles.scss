@@ -1,0 +1,120 @@
+body {
+    color: #fff;
+    font-family: Source Sans Pro;
+    font-size: 2rem;
+
+    /* Safari 4-5, Chrome 1-9 */
+    background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#092846), to(#1d5591));
+
+    /* Safari 5.1, Chrome 10+ */
+    background: -webkit-linear-gradient(top, #1d5591, #092846);
+
+    /* Firefox 3.6+ */
+    background: -moz-linear-gradient(top, #1d5591, #092846);
+
+    /* IE 10 */
+    background: -ms-linear-gradient(top, #1d5591, #092846);
+
+    /* Opera 11.10+ */
+    background: -o-linear-gradient(top, #1d5591, #092846);
+    
+    background: #092646;
+}
+
+.container {
+    padding: 4rem;
+}
+
+.row {
+    &:after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+}
+
+.hourly {
+    border-top: 2px solid #888;
+    border-bottom: 2px solid #888;
+    margin-bottom: 5rem;
+    margin-top: 3rem;
+}
+
+.icon,
+.icon-now {
+    display: inline-block;
+    background-color: #fff;
+    border-radius: 50px;
+    height: 75px;
+    position: relative;
+    width: 75px;
+
+    img {
+        position: absolute;
+        left: 13px;
+        top: 13px;
+    }
+}
+
+.hour {
+    float: left;
+    text-align: center;
+    width: 8.33333%;
+
+    .temp {
+        font-size: 2.5rem;
+        font-weight: bold;
+    }
+}
+
+.header {
+    .temp_f {
+        display: inline-block;
+        font-size: 7rem;
+        line-height: .6;
+        margin: 0;
+        padding: 0;
+        vertical-align: top;
+    }
+
+    .city-conditions {
+        display: inline-block;
+        font-size: 2.25rem;
+        line-height: .7;
+        margin: 0;
+        padding: 0;
+        text-align: left;
+        vertical-align: top;
+
+        p {
+            margin: 0;
+            padding: 0;
+        }
+    }
+}
+
+.text-center {
+    text-align: center;
+}
+
+.condition {
+    float: left;
+    text-align: center;
+    width: 14.28571%;
+    // width: 12.5%;
+
+    img {
+        height: 60px;
+        width: 60px;
+    }
+
+    p:nth-child(2) {
+        font-size: 2.5rem;
+        font-weight: bold;
+        margin: 1rem auto;
+    }
+
+    p:last-child {
+        margin-bottom: 0;
+    }
+}
